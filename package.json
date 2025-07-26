@@ -1,0 +1,22 @@
+{
+  "name": "letsconnect-nodejs-socket",
+  "version": "1.0.0",
+  "description": "letsconect - a chat-app, to connect with peoples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "letsconnect",
+    "chat",
+    "chat-socket",
+    "socket"
+  ],
+  "author": "Num",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
