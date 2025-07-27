@@ -23,7 +23,7 @@ io.on('connection', (socket) => {
   console.log('Socket connected:', socket.id);
   socket.on(EVENT_JOIN, (data) => {
     console.log('User joined:', data);
-    io.emit(EVENT_CHAT, `${data}, Joined Chat.`);
+    io.emit(EVENT_CHAT, data);
   });
   socket.on(EVENT_MESSAGE, (data) => {
     console.log('Message received:', data);
